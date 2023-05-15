@@ -1,0 +1,49 @@
+.imageProduct {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.title {
+    color: #F16255;
+    font-size: 2em;
+    line-height: 1.3em;
+    width: 70%;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    color: #fff;
+}
+
+.label {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: light;
+}
+
+.colorWhite {
+    color: #000 !important;
+}
+
+.yellowBorder {
+    border-color: #000 !important;
+}
+
+.btnPurchase {
+    background-color: #F16255 !important;
+    color: #fff !important;
+    border: none;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.btnPurchase:hover {
+    border: none;
+    background-color: #fd5445d4 !important;
+}
+
+.dialog {
+    background-color: #FFEFEF;
+}

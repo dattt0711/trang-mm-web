@@ -1,0 +1,45 @@
+.usernameAvt {
+    color: #000;
+}
+
+.subtitleAvt {
+    color: #000;
+}
+
+.icon {
+    color: #000;
+    height: 30px;
+    width: 30px;
+}
+
+.formContainer {
+    background-color: #ffefef;
+    padding: 20px;
+}
+
+.titleForm {
+    color: #FFEFEF;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.btn {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.btn:hover {
+    border: none;
+    background-color: #000 !important;
+}
+
+.datePicker {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    width: 80%;
+}

@@ -1,0 +1,50 @@
+.imageProduct {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.title {
+    color: #000;
+    font-size: 2em;
+    line-height: 1.3em;
+    width: 70%;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    color: #000;
+}
+
+.label {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: light;
+}
+
+.colorWhite {
+    color: #000 !important;
+}
+
+.yellowBorder {
+    border-color: #000 !important;
+}
+
+.btnCart {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.btnCart:hover {
+    border: none;
+    background-color: #0000009f !important;
+}
+
+.boxDescription {
+    padding: 16px;
+    border: 1px solid #000;
+}
