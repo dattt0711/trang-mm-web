@@ -23,7 +23,7 @@ export default function PaginationComponent(props) {
         onChange={handlePagination}
         className={classes.root}
         count={pagination.pageCount}
-        defaultPage={pagination.currentPage} s
+        defaultPage={pagination.currentPage}
         hape="rounded" />
     </Stack>
   );

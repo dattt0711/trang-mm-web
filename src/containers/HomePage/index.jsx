@@ -156,6 +156,7 @@ const HomePage = (props) => {
     const handleFilter = (event) => {
         setFilters({
             ...filters,
+            page: 1,
             [event.target.name]: event.target.value,
         })
     }
