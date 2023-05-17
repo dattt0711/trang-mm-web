@@ -24,7 +24,9 @@ export default function PaginationComponent(props) {
         className={classes.root}
         count={pagination.pageCount}
         defaultPage={pagination.currentPage}
-        hape="rounded" />
+        shape="rounded"
+      />
+
     </Stack>
   );
 }
