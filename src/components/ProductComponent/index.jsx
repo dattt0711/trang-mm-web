@@ -8,7 +8,7 @@ export default function ProductComponent(props) {
   const { productList, filters, handleDeleteProduct, handleOpenEditDialog, isAdmin } = props;
 
   return (
-    <Grid container spacing={2} sx={{ mt: 3, mb: 4 }} style={{ display: "flex", justifyContent: "center" }}>
+    <Grid container spacing={2} sx={{ mt: 3, mb: 4 }}>
       <Grid item xs={12}>
         <Typography className={clsx(styles.yellowText, styles.categoryText)} variant="h6" gutterBottom>
           {filters.category}
